@@ -1,8 +1,5 @@
 # day04.py
 
-import collections
-import string
-
 def split_line(s):
     idx = s.find('[')
     blurb, checksum = s[:idx], s[idx+1:idx+6]
